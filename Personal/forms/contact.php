@@ -8,7 +8,7 @@
     die( 'Unable to load the "PHP Email Form" Library!');
   }
 
-  $contact = new PHP_Email_Form;
+  $contact = new $php_email_form;
   $contact->ajax = true;
   
   $contact->to = $receiving_email_address;
